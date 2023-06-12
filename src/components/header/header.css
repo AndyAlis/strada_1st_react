@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    min-height: 40px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+}
+
+.logo-container {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.login-container {
+    margin-left: auto;
+}
+
+.login-container button {
+    margin-left: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
